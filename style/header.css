@@ -1,90 +1,69 @@
-.cabecalho {
-    list-style: none;
-  }
-  
-  .cabecalho li {
-    margin-right: 8px;
+header{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(0, 82, 158) );
+    text-align: center;
+}
+
+header img{
+    width: 170px;
+    height: 120px;
+    margin-bottom: 0px;
+}
+
+.animation{
+    animation: fadeInFadeOut 2s linear infinite;
+}
+
+@keyframes fadeInFadeOut{
+    0% {opacity:1}
+    50% {opacity: 0.4}
+    100% {opacity: 1.5;}
+}
+
+.transitionSize{
+    transition:  1s;
+}
+
+.transitionSize:hover{
+    transform: scale(1.2);
+}
+
+.menu li{
     display: inline-block;
-    align-items: end;
-  }
-  
-  .cabecalho a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
+    margin-right: 20px; 
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+.menu li>a {
+    color: white;
     text-decoration: none;
-    transition: 200ms;
-  }
-  
-  .cabecalho a:hover {
-    color: #ffffff;
-  }
-  
-  .styleCab {
-    margin: 0;
-    background: rgb(77, 69, 69);
-    padding: 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.menu li>a:hover {
+    color: #00aeff;
+    letter-spacing: 4px;
+}
+
+.menu li>a::after {
+
+    transition: all 0.5s ease;
     
-  }
-  
-  h1 img {
-    margin-left: 20px;
-    max-width: 40%;
-  }
-  
-  h1 img:hover {
-    cursor: pointer;
-  }
-  
+}
 
+.menu li>a:hover::after {
+    width: 80%;
+}
 
-
-
-/* header {
-    background: #cfd8dc;
-    padding: 20px 0;
-  }
-  
-  .navbar {
-    margin: 0 auto;
-    position: relative;
-    width: 940;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  h1 img {
-    margin-left: 20px;
-    max-width: 40%;
-  }
-  
-  h1 img:hover{
-    cursor: pointer;
-  }
-  
-  nav {
-    position: absolute;
-    right: 60px;
-  }
-  
-  nav li {
-    display: inline;
-    margin-right: 8px;
-    margin: 0, 0, 0, 15px;
-  }
-  
-  nav a {
-    text-transform: uppercase;
-    color: #37474f;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-    transition: 200ms;
-  }
-  
-  nav a:hover {
-    color: #607d8b;
-    text-decoration: underline;
-  } */
+hr{
+    height: 3px;
+    background-color: white;
+}
