@@ -23,7 +23,6 @@ text-align: center;
     margin-bottom: 25px;
     flex-basis: 20%;
     transition:  0.6s;
-    background-image: linear-gradient(to top, black, rgb(124, 124, 124))
   }
   
 .service li:hover{
@@ -65,13 +64,6 @@ text-align: center;
     opacity: 200%;
   }
 
-  .logo{
-    background-image:linear-gradient(to left, rgb(0, 0, 0) , rgb(0, 82, 158) );
-    height: 80px;
-  }
-
-  .logo h1{
-    font-style: oblique;
-    color: white;
-    font-size: 45px;
+  .servico-lavagem{
+    background-image: url('https://st3.depositphotos.com/4339799/33784/i/600/…_337846050-stock-photo-the-man-cuts-his-beard.jpg');
   }

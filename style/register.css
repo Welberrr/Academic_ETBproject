@@ -1,0 +1,74 @@
+  body{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(0, 82, 158) )
+  }
+  
+  main {
+    width: 940px;
+    margin: 0 auto;
+    /* display: flex; */
+  }
+  
+  form {
+    margin: 40px 0;
+    /* align-items: center; */
+  }
+  
+  fieldset {
+    border: none;
+    margin: 40px 0;
+  }
+  
+  .title-legend {
+    font-size: 18px;
+    margin: 0 0 20px;
+  }
+  
+  form label, form legend {
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .user-input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 35%;
+  }
+  
+  .checkbox {
+    margin: 20px 0 50px;
+  }
+  
+  .button {
+    padding: 10px 60px;
+    background:#607d8b;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    border: none;
+    transition: 200ms;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background:#37474f;
+    transform: scale(1.2);
+  }
+  
+  table {
+    margin: 20px 0 40px;
+  }
+  
+  thead {
+    background: #37474f;
+    color: #ffffff;
+    font-weight: bold;
+    /* padding: 10px;   */
+  }
+  td, th {
+    border: 1px solid #37474f;
+    padding: 8px 13px;
+    text-align: center;
+  }
