@@ -1,15 +1,69 @@
-.sobre{
-    background-color: rgb(17, 81, 109);
-    width: 40%;
+body{
+    background-color: gray;
 }
 
-img{
-    width: 40%;
+.sobre{
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    height: 500px;
+    background-image: url('https://www.daquibh.com.br/wp-content/uploads/sites/34/2017/08/Fonte_Pixabay.jpg');
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid rgb(0, 0, 0); 
+    border-radius: 20px; 
+    flex-basis: 20%;
+    opacity: 0.7;
 }
 
 .sobre h1{
     color: white;
     text-align: center;
     text-shadow: black 1px 1px 1px;
-    font-weight: bold;
+
 }
+
+.sobre p{
+    font-style: inherit;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+
+.conheça{
+    background-color: black;
+    height: 50px;
+}
+
+.conheça h1{
+    color: white;
+    text-align: center;
+}
+
+.serv li{
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    margin: 19px;
+    box-sizing: border-box;
+    border: 5px solid rgb(0, 0, 0); 
+    border-radius: 20px; 
+    height: 300px;
+    width: 300px;
+    margin-top: 25px;
+    flex-basis: 20%;
+    transition:  0.6s;
+    background-image: linear-gradient(to top, black, rgb(124, 124, 124))
+}
+
+.serv li:hover{
+    transform: scale(1.2);
+    border-color: rgb(255, 255, 255);
+}
+
+.serv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
