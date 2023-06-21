@@ -1,5 +1,5 @@
   body{
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(0, 82, 158) )
+    background-image: url('https://img.freepik.com/fotos-gratis/conceito-de-m…el-de-parede-do-fundo-do-material_53876-30425.jpg');
   }
   
   main {
@@ -9,11 +9,13 @@
   }
   
   form {
+    color: white;
     margin: 40px 0;
     /* align-items: center; */
   }
   
   fieldset {
+    color: white;
     border: none;
     margin: 40px 0;
   }
@@ -42,7 +44,7 @@
   
   .button {
     padding: 10px 60px;
-    background:#607d8b;
+    background:#7a8286;
     color: #ffffff;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
@@ -58,17 +60,18 @@
   }
   
   table {
+    color: white;
     margin: 20px 0 40px;
   }
   
   thead {
-    background: #37474f;
+    background: #5c5d5e;
     color: #ffffff;
     font-weight: bold;
     /* padding: 10px;   */
   }
   td, th {
-    border: 1px solid #37474f;
+    border: 1px solid #ffffff;
     padding: 8px 13px;
     text-align: center;
   }
