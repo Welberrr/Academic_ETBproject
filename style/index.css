@@ -54,7 +54,22 @@ body{
     margin-top: 25px;
     flex-basis: 20%;
     transition:  0.6s;
-    background-image: linear-gradient(to top, black, rgb(124, 124, 124))
+}
+
+.serv a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+
+.servicos{
+    background-image: url('	https://www.djazil.com.br/wp-content/uploads/2018/09/babearia-fran-cabeleireiros-e-visagista-1.jpg');
+}
+
+.produtos{
+    background-image: url('https://i.pinimg.com/474x/52/c8/f2/52c8f2eb20ee3c409a74cf906a770af7.jpg');
 }
 
 .serv li:hover{
