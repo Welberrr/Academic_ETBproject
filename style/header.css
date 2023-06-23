@@ -1,72 +1,78 @@
-    header{
-        width: 100%;
-        display: inline-block;
+header img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+.animation {
+    animation: fadeInFadeOut 2s linear infinite;
+}
+
+@keyframes fadeInFadeOut {
+    0% {
+        opacity: 1
     }
 
-    header img{
-        width: 150px;
-        height: 150px;
-        margin-bottom: 0px;
-        display: inline-block;
-        margin-right: 620px;
-        margin-left: 70px;
+    50% {
+        opacity: 0.4
     }
 
-    .animation{
-        animation: fadeInFadeOut 2s linear infinite;
+    100% {
+        opacity: 1.5;
     }
+}
 
-    @keyframes fadeInFadeOut{
-        0% {opacity:1}
-        50% {opacity: 0.4}
-        100% {opacity: 1.5;}
-    }
+.transitionSize {
+    transition: 1s;
+}
 
-    .transitionSize{
-        transition:  1s;
-    }
+/* .transitionSize:hover {
+    transform: scale(1.1);
+} */
 
-    .transitionSize:hover{
-        transform: scale(1.1);
-    }
+.nav {
+    display: inline-block;
+}
 
-    .nav li{
-        display: inline-block;
-        margin-right: 20px;
-    }
+.nav ul {
+    list-style: none;
+    margin-left: 60px;
+  }
 
-    .nav ul {
-        padding: 0;
-        list-style: none;
+.nav li {
+    display: inline-block;
+    margin-right: 60px;
+}
 
-    }
+.nav li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Roboto Mono', monoespaçado;
+    transition: all 0.5s ease;
+}
 
-    .nav li>a {
-        color: white;
-        text-decoration: none;
-        font-size: 25px;
-        font-weight: bold;
-        transition: all 0.5s ease;
-    }
+.nav li>a:hover {
+    color: #c6c938;
+    letter-spacing: 4px;
+}
 
-    .nav li>a:hover {
-        color: #6d6d6d;
-        letter-spacing: 4px;
-    }
+.nav li>a::after {
+    transition: all 0.5s ease;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #6d6d6d;
+    margin-top: 5px;
+}
 
-    .nav li>a::after {
-        transition: all 0.5s ease;
-    }
+.nav li>a:hover::after {
+    width: 80%;
+}
 
-    .nav li>a:hover::after {
-        width: 80%;
-    }
-
-    .nav{
-        display: inline-block;
-    }
-
-    .logo{
-        display: inline-block;
-    }
-
+.logo {
+    display: inline-block;
+}
