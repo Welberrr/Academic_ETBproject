@@ -28,10 +28,6 @@ header img {
     transition: 1s;
 }
 
-/* .transitionSize:hover {
-    transform: scale(1.1);
-} */
-
 .nav {
     display: inline-block;
 }
@@ -55,7 +51,7 @@ header img {
 }
 
 .nav li>a:hover {
-    color: #c6c938;
+    color: #797978;
     letter-spacing: 4px;
 }
 
